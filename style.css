@@ -1,0 +1,334 @@
+body {
+    /* margin: 0; */
+    /* width: 100%; */
+    /* height: 100vh; */
+    background-color: rgb(3, 59, 69);
+}
+
+header {
+    margin-top: -55px;
+    margin-left: 150px;
+    position: fixed;
+}
+
+#reslogo {
+    width: 100px;
+}
+
+h1 {
+    color: rgb(60, 244, 207);
+    font-family: 'Sen', sans-serif;
+    font-size: 115px;
+    margin-top: 90px;
+    margin-left: 150px;
+    margin-bottom: 0;
+    letter-spacing: 5px;
+}
+
+p {
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    margin-top: 10px;
+    margin-left: 150px;
+    color: rgb(160, 186, 180);
+    margin-bottom: 50px;
+    line-height: 1.4;
+
+}
+
+button {
+    position: fixed;
+    margin-left: 150px;
+    background-color: rgb(60, 244, 207);
+    padding: 20px;
+    border-radius: 3px;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+}
+
+button:hover {
+    position: fixed;
+    margin-left: 150px;
+    background-color: rgb(60, 244, 207, 0.1);
+    border: 1px solid rgb(60, 244, 207, 0.1);
+    color: rgb(160, 186, 180);
+    padding: 20px;
+    border-radius: 3px;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+}
+
+#spn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 180px;
+    margin-left: -750px;
+    color: rgb(160, 186, 180);
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+}
+#res1 {
+    width: 100px;
+    position: absolute;
+    margin-top: -355px;
+    margin-left: 965px;
+    z-index: -1;
+}
+#res2 {
+    width: 150px;
+    position: absolute;
+    margin-top: -625px;
+    margin-left: 950px;
+}
+
+#res3 {
+    position: absolute;
+    margin-top: -580px;
+    margin-left: 45px;
+    z-index: -1;
+}
+
+#res4 {
+    width: 200px;
+    position: absolute;
+    margin-top: -200px;
+    margin-left: 880px;
+}
+
+#res5 {
+    width: 110px;
+    position: absolute;
+    margin-top: -590px;
+    margin-left: 775px;
+    z-index: -1;
+}
+
+#res6 {
+    width: 110px;
+    position: absolute;
+    margin-top: -340px;
+    margin-left: 620px;
+    z-index: -1;
+}
+
+#ekonum {
+    position: relative;
+    z-index: -2;
+}
+
+#res7 {
+    margin-right: 10px;
+}
+
+@media (max-width:768px) {
+
+    header {
+        margin-top: 25px;
+        margin-left: 50px;
+        position: relative;
+    }
+
+    #reslogo {
+        width: 80px;
+    }
+
+    h1 {
+        color: rgb(60, 244, 207);
+        font-family: 'Sen', sans-serif;
+        font-size: 65px;
+        margin-top: 150px;
+        margin-left: 50px;
+        margin-bottom: 0;
+    }
+
+    p {
+        font-family: 'Inter', sans-serif;
+        font-size: 16px;
+        margin-top: 30px;
+        margin-left: 50px;
+        color: rgb(160, 186, 180);
+        margin-bottom: 30px;
+        line-height: 1.4;
+
+    }
+
+    button {
+        position: fixed;
+        margin-left: 50px;
+        background-color: rgb(60, 244, 207);
+        padding: 20px;
+        border-radius: 3px;
+        font-family: 'Inter', sans-serif;
+        font-weight: bold;
+    }
+    
+    button:hover {
+        position: fixed;
+        margin-left: 50px;
+        background-color: rgb(60, 244, 207, 0.1);
+        border: 1px solid rgb(60, 244, 207, 0.1);
+        color: rgb(160, 186, 180);
+        padding: 20px;
+        border-radius: 3px;
+        font-family: 'Inter', sans-serif;
+        font-weight: bold;
+    }
+
+    #spn {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: fixed;
+        margin-top: 160px;
+        margin-left: 50px;
+        color: rgb(160, 186, 180);
+        font-family: 'Inter', sans-serif;
+        font-size: 16px;
+    }
+    #res1 {
+        width: 80px;
+        position: absolute;
+        margin-top: -245px;
+        margin-left: 480px;
+    }
+    #res2 {
+        width: 120px;
+        position: absolute;
+        margin-top: -440px;
+        margin-left: 420px;
+    }
+    #res3 {
+        width: 100px;
+        position: absolute;
+        margin-top: -390px;
+        margin-left: 40px;
+    }
+    #res4 {
+        width: 150px;
+        position: absolute;
+        margin-top: -20px;
+        margin-left: 380px;
+    }
+    #res5 {
+        width: 80px;
+        position: absolute;
+        margin-top: -305px;
+        margin-left: 370px;
+    }
+    #res6 {
+        width: 90px;
+        position: absolute;
+        margin-top: -135px;
+        margin-left: 430px;
+    }
+    #res7 {
+        width: 30px;
+    }
+}
+
+@media (max-width:500px) {
+    header {
+        margin-top: 25px;
+        margin-left: 50px;
+        position: relative;
+    }
+
+    #reslogo {
+        width: 90px;
+        margin-bottom: 40px;
+    }
+
+    h1 {
+        color: rgb(60, 244, 207);
+        font-family: 'Sen', sans-serif;
+        font-size: 55px;
+        margin-top: 90px;
+        margin-left: 15px;
+        margin-bottom: 0;
+        letter-spacing: 5px;
+    }
+
+    p {
+        font-family: 'Inter', sans-serif;
+        font-size: 23px;
+        margin-top: 30px;
+        margin-left: 15px;
+        color: rgb(160, 186, 180);
+        margin-bottom: 80px;
+        line-height: 1.4;
+
+    }
+
+    button {
+        position: fixed;
+        margin-left: 15px;
+        background-color: rgb(60, 244, 207);
+        padding: 20px;
+        border-radius: 3px;
+        font-family: 'Inter', sans-serif;
+        font-size: 22px;
+    }
+    
+    button:hover {
+        position: fixed;
+        margin-left: 15px;
+        background-color: rgb(60, 244, 207, 0.1);
+        border: 1px solid rgb(60, 244, 207, 0.1);
+        color: rgb(160, 186, 180);
+        padding: 20px;
+        border-radius: 3px;
+        font-family: 'Inter', sans-serif;
+        font-size: 22px;
+    }
+
+    #spn {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: fixed;
+        margin-top: 180px;
+        margin-left: 15px;
+        color: rgb(160, 186, 180);
+        font-family: 'Inter', sans-serif;
+        font-size: 16px;
+    }
+
+
+    #res1 {
+        display: none;
+    }
+
+    #res2 {
+        width: 160px;
+        position: absolute;
+        margin-top: -415px;
+        margin-left: 280px;
+        z-index: -1;
+    }
+
+    #res3 {
+        width: 130px;
+        position: absolute;
+        margin-top: -410px;
+        margin-left: 40px;
+    }
+    #res4 {
+        display: none;
+    }
+
+    #res5 {
+        display: none;
+    }
+
+    #res6 {
+        width: 160px;
+        position: absolute;
+        margin-top: -10px;
+        margin-left: 280px;
+    }
+
+    #res7 {
+        width: 30px;
+    }
+}
