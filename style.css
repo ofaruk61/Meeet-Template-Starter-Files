@@ -11,6 +11,11 @@ header {
     position: fixed;
 }
 
+.anaCerceve {
+    width: 100%;
+    position: relative;
+}
+
 #reslogo {
     width: 100px;
 }
@@ -41,6 +46,7 @@ button {
     margin-left: 150px;
     background-color: rgb(60, 244, 207);
     padding: 20px;
+    border: none;
     border-radius: 3px;
     font-family: 'Inter', sans-serif;
     font-weight: bold;
@@ -59,47 +65,50 @@ button:hover {
 }
 
 #spn {
+    position: fixed;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 180px;
-    margin-left: -750px;
+    margin-top: 90px;
+    margin-left: 150px;
     color: rgb(160, 186, 180);
     font-family: 'Inter', sans-serif;
     font-size: 16px;
 }
+
 #res1 {
     width: 100px;
     position: absolute;
-    margin-top: -355px;
+    margin-top: -180px;
     margin-left: 965px;
     z-index: -1;
 }
+
 #res2 {
     width: 150px;
     position: absolute;
-    margin-top: -625px;
+    margin-top: -425px;
     margin-left: 950px;
 }
 
 #res3 {
     position: absolute;
-    margin-top: -580px;
+    margin-top: -380px;
     margin-left: 45px;
     z-index: -1;
 }
 
 #res4 {
-    width: 200px;
+    width: 190px;
     position: absolute;
-    margin-top: -200px;
-    margin-left: 880px;
+    margin-top: -10px;
+    margin-left: 840px;
 }
 
 #res5 {
     width: 110px;
     position: absolute;
-    margin-top: -590px;
+    margin-top: -420px;
     margin-left: 775px;
     z-index: -1;
 }
@@ -107,7 +116,7 @@ button:hover {
 #res6 {
     width: 110px;
     position: absolute;
-    margin-top: -340px;
+    margin-top: -170px;
     margin-left: 620px;
     z-index: -1;
 }
@@ -159,10 +168,11 @@ button:hover {
         background-color: rgb(60, 244, 207);
         padding: 20px;
         border-radius: 3px;
+        border: none;
         font-family: 'Inter', sans-serif;
         font-weight: bold;
     }
-    
+
     button:hover {
         position: fixed;
         margin-left: 50px;
@@ -176,58 +186,65 @@ button:hover {
     }
 
     #spn {
+        position: fixed;
         display: flex;
         align-items: center;
         justify-content: center;
-        position: fixed;
-        margin-top: 160px;
+        margin-top: 120px;
         margin-left: 50px;
         color: rgb(160, 186, 180);
         font-family: 'Inter', sans-serif;
         font-size: 16px;
     }
+
     #res1 {
         width: 80px;
         position: absolute;
         margin-top: -245px;
         margin-left: 480px;
     }
+
     #res2 {
         width: 120px;
         position: absolute;
         margin-top: -440px;
         margin-left: 420px;
     }
+
     #res3 {
         width: 100px;
         position: absolute;
         margin-top: -390px;
         margin-left: 40px;
     }
+
     #res4 {
         width: 150px;
         position: absolute;
         margin-top: -20px;
         margin-left: 380px;
     }
+
     #res5 {
         width: 80px;
         position: absolute;
         margin-top: -305px;
         margin-left: 370px;
     }
+
     #res6 {
         width: 90px;
         position: absolute;
         margin-top: -135px;
         margin-left: 430px;
     }
+
     #res7 {
         width: 30px;
     }
 }
 
-@media (max-width:500px) {
+@media (max-width:600px) {
     header {
         margin-top: 25px;
         margin-left: 50px;
@@ -263,16 +280,19 @@ button:hover {
     button {
         position: fixed;
         margin-left: 15px;
+        margin-top: -60px;
         background-color: rgb(60, 244, 207);
         padding: 20px;
         border-radius: 3px;
+        border: none;
         font-family: 'Inter', sans-serif;
         font-size: 22px;
     }
-    
+
     button:hover {
         position: fixed;
         margin-left: 15px;
+        margin-top: -60px;
         background-color: rgb(60, 244, 207, 0.1);
         border: 1px solid rgb(60, 244, 207, 0.1);
         color: rgb(160, 186, 180);
@@ -283,11 +303,11 @@ button:hover {
     }
 
     #spn {
+        position: fixed;
         display: flex;
         align-items: center;
         justify-content: center;
-        position: fixed;
-        margin-top: 180px;
+        margin-top: 100px;
         margin-left: 15px;
         color: rgb(160, 186, 180);
         font-family: 'Inter', sans-serif;
@@ -313,6 +333,7 @@ button:hover {
         margin-top: -410px;
         margin-left: 40px;
     }
+
     #res4 {
         display: none;
     }
@@ -325,7 +346,7 @@ button:hover {
         width: 160px;
         position: absolute;
         margin-top: -10px;
-        margin-left: 280px;
+        margin-left: 220px;
     }
 
     #res7 {
